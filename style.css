@@ -1,0 +1,96 @@
+/* 
+div{
+  margin: 10% 20%;
+  width: 600px;
+  text-align: center;
+  border-right: 10px solid #673ab7;
+  border-left:10px solid #f44336;
+  background-color: #eee;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 0.6rem;
+border-color: 10px solid linear-gradient(90deg, #f44336 20% ,#2196f3 20%,#2196f3 40%  ,#4caf50 40%,#4caf50 60%,#e91e63 60%,#e91e63 80%,#673ab7 80%,#673ab7 100%);
+}
+div::first-letter{
+  color: red;
+}
+div::before{
+   background:linear-gradient(90deg, #f44336 20% ,#2196f3 20%,#2196f3 40%  ,#4caf50 40%,#4caf50 60%,#e91e63 60%,#e91e63 80%,#673ab7 80%,#673ab7 100%);
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  height: 1000px;
+}
+
+
+
+
+
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+  
+  }
+  
+  .red{
+    background-color: red;
+  }
+  
+  .green{
+    background-color: green;
+  }
+  
+  .yellow{
+    background-color: yellow;
+  }
+  .section1{
+display: flex;
+
+    
+
+  }
+  img{
+      width: 300px;
+      height: 300px;
+  }
+  #cssMain{
+    background-color: cadetblue;
+    padding: 10px;
+    width: 500px;
+    position: fixed;
+    /* height: 200vh; */
+  }
+
+  .on1{
+background-color: coral;
+/* position: sticky; */
+/* left: 100px; */
+float: left;
+  }
+  .on2{
+background-color: cornflowerblue;
+/* float: right; */
+  }
+  .on3{
+background-color: darkgreen;
+  }
